@@ -49,3 +49,6 @@ whitenoise==5.2.0
 ipython==7.18.1
 jedi==0.17.2
 parso==0.7.1
+
+# other
+validate-docbr==1.8.2

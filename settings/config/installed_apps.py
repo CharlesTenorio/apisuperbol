@@ -1,5 +1,5 @@
 MY_APPS = [
-  'accounts.users'
+  'accounts.users',
 ]
 
 LIB_APPS = [

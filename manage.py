@@ -2,10 +2,13 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+from decouple import config
 
+DEBUG = config('DEBUG', cast=bool, default=True)
+ENV = 'dev' if DEBUG else 'prod'
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings.server.dev')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', f'settings.server.{ENV}')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
