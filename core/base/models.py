@@ -1,9 +1,8 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
-from core.base.validators import validate_zip_code, validate_cpf_cnpj
-from core.base.enums import TypeOfPersonChoice
-from core.base.fields import CnpjField, ZipCodeField, CpfCnpjField
+from core.base.enums.natural import NaturalPersonChoice
+from core.base.fields import CnpjField, ZipCodeField, 
 
 class AddressMixin(models.Model):
   
@@ -33,11 +32,11 @@ class PhoneMixin(models.Model):
 
 class PersonDocumentMixin(models.Model):
 
-  type_person = models.CharField(
+  is_natural = models.CharField(
     _("Tipo de pessoa"),
     max_length=5,
-    choices=TypeOfPersonChoice.choices,
-    default=TypeOfPersonChoice.FISICA
+    choices=NaturalPersonChoice.choices,
+    default=NaturalPersonChoice.FISICA
   )
   cpf_cnpj = CnpjField()
   
