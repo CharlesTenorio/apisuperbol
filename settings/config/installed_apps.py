@@ -1,6 +1,17 @@
-MY_APPS = [
+ACCOUNT_APPS = [
   'accounts.users',
+  'accounts.customers',
+  'accounts.owners',
 ]
+
+ECOMMERCE_APPS = [
+  'ecommerce.shopping.sales',
+  'ecommerce.shopping.stores',
+  'ecommerce.stock.brands',
+  'ecommerce.stock.products'
+]
+
+MY_APPS = ACCOUNT_APPS + ECOMMERCE_APPS
 
 LIB_APPS = [
   'drf_yasg',

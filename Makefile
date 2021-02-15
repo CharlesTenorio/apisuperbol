@@ -30,8 +30,8 @@ config:
 	sudo docker-compose exec django python manage.py createsuperuser
 
 init:
-	git remote remove origin
 	mv env.txt .env
+	git remote remove origin
 	sudo docker-compose ps
 	sudo docker-compose up
 

@@ -1,6 +1,6 @@
 import os
 from decouple import config
-from ..config.instaled_apps import get_apps
+from ..config.installed_apps import get_apps
 from ..config.auth import *
 from ..config.aws import *
 from ..config.redis import *

@@ -2,7 +2,7 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 
 from core.base.enums.natural import NaturalPersonChoice
-from core.base.fields import CnpjField, ZipCodeField, 
+from core.base.fields import CnpjField, ZipCodeField
 
 class AddressMixin(models.Model):
   
