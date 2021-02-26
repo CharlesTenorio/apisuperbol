@@ -45,6 +45,9 @@ requests==2.22.0
 Unipath==1.1
 whitenoise==5.2.0
 
+# Logging
+sentry-sdk
+
 # IPython
 ipython==7.18.1
 jedi==0.17.2
