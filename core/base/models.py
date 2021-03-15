@@ -6,7 +6,6 @@ from core.base.enums.states import StateChoices
 from core.base.fields import CnpjField, ZipCodeField
 
 class AddressMixin(models.Model):
-  
   street = models.CharField(_('Rua'), max_length=120)
   street_number = models.CharField(_('Número da casa'), max_length=50, default='sn')
   district = models.CharField(_('Bairro'), max_length=80)
@@ -33,13 +32,13 @@ class PhoneMixin(models.Model):
 
 class PersonDocumentMixin(models.Model):
 
-  is_natural = models.CharField(
+  type_person = models.CharField(
     _("Tipo de pessoa"),
     max_length=5,
     choices=NaturalPersonChoice.choices,
     default=NaturalPersonChoice.FISICA
   )
-  cpf_cnpj = CnpjField()
+  document = CnpjField()
   
   class Meta:
     abstract = True

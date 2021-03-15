@@ -21,27 +21,13 @@ lint:
 createsuperuser:
 	sudo docker-compose exec django python manage.py createsuperuser
 
-git-setup:
-	git remote remove origin 
-
 config:
 	sudo docker-compose exec django python manage.py makemigrations
 	sudo docker-compose exec django python manage.py migrate
 	sudo docker-compose exec django python manage.py createsuperuser
 
-init:
-	mv env.txt .env
-	git remote remove origin
-	sudo docker-compose ps
-	sudo docker-compose up
-
-
 stop:
 	docker system prune
 
-
-push:
-	cp .env env.txt
-	git add .
-	git commit -m "configurando env"
-	git push origin master
+console:
+	ssh deploy@186.237.57.210 -p2201

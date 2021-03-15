@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.9
 # Variáveis de ambiente
 ENV PYTHONUNBUFFERED 1
 # ENV DJANGO_SECRET_KEY 'abcde0s&&$uyc)hf_3rv@!a95nasd22e-dxt^9k^7!f+$jxkk+$k-'

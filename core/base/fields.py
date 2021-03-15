@@ -19,7 +19,9 @@ class ZipCodeField(CharField):
 class CpfField(CharField):
 
   def __init__(self, *args, **kwargs):
-    kwargs['verbose_name'] = _("Documento")
+    if not kwargs['verbose_name']:
+      kwargs['verbose_name'] = _("CPF")
+
     kwargs['max_length'] = 14
     kwargs['validators'] = [validate_cpf]
     super().__init__(*args, **kwargs)

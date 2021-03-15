@@ -13,3 +13,8 @@ class NaturalPersonChoice(TextChoices):
   FISICA = 'CPF', _('Pessoa Física')
   JURIDICA = 'CNPJ', _('Pessoa Jurídica')
 
+
+class SexPersonChoice(TextChoices):
+  Male = 'm', _('Masculino')
+  Female = 'f', _('Feminino')
+
