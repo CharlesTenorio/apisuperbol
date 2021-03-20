@@ -6,6 +6,7 @@ from ..config.aws import *
 from ..config.redis import *
 from ..config.email import *
 from ..config.restframework import *
+from ..config.settings_vars import *
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
