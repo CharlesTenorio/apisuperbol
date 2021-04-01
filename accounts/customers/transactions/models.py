@@ -1,6 +1,7 @@
 import uuid
 from django.db import models
 from django.utils.translation import gettext_lazy as _
+from accounts.customers.transactions.enums import TransactionTypeChoices
 
 class Account(models.Model):
     id = models.UUIDField(_("Identificação"), primary_key=True, default=uuid.uuid4, editable=False, unique=True)
@@ -25,7 +26,7 @@ class Account(models.Model):
 class Transaction(models.Model):
     id = models.UUIDField(_("Identificação"), primary_key=True, default=uuid.uuid5, editable=False, unique=True)
     account = models.ForeignKey(Account, on_delete=models.PROTECT, verbose_name=_("Conta"))
-    movimentacao = models.CharField(max_length=20, choices=settings.TIPO_MOVIMENTACAO)
+    movimentacao = models.CharField(max_length=20, choices=TransactionTypeChoices.choices)
     valor = models.DecimalField(max_digits=9, decimal_places=2)
     movi_data = models.DateTimeField(auto_now=True)
     

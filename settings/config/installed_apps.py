@@ -1,5 +1,9 @@
 ACCOUNT_APPS = [
-  'accounts.users'
+  'accounts.users',
+  'accounts.benches',
+  'accounts.changers',
+  'accounts.customers.customers',
+  'accounts.customers.transactions'
 ]
 
 MY_APPS = ACCOUNT_APPS

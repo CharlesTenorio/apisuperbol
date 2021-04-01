@@ -5,7 +5,7 @@ from core.base.fields import CpfField
 def customer_path(instance, filename):
   return f"{instance.user.username}/profile/{filename}"
 
-class Cliente(models.Model):
+class Customer(models.Model):
     user = models.OneToOneField("users.User", on_delete=models.PROTECT)
     name = models.CharField(_("Nome"), max_length=40)
     prolile = models.ImageField(

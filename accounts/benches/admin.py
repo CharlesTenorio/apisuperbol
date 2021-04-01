@@ -1,3 +1,6 @@
 from django.contrib import admin
+from accounts.benches.models import Bench
 
-# Register your models here.
+@admin.register(Bench)
+class BenchAdmin(admin.ModelAdmin):
+  list_display = ['name', 'user']
