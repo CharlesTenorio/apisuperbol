@@ -1,0 +1,2205 @@
+
+{
+  // 20210418190151
+  // https://api.b365api.com/v2/events/ended?sport_id=1&token=74409-ok98vsO3htGHPn&day=20210418&cc=br
+  "success": 1,
+  "pager": {
+    "page": 1,
+    "per_page": 50,
+    "total": 61
+  },
+  "results": [
+    {
+      "id": "3441246",
+      "sport_id": "1",
+      "time": "1618776000",
+      "time_status": "3",
+      "league": {
+        "id": "3584",
+        "name": "Brazil Campeonato Matogrossense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "80292",
+        "name": "CE Dom Bosco",
+        "image_id": "245543",
+        "cc": "br"
+      },
+      "away": {
+        "id": "1308",
+        "name": "Cuiaba",
+        "image_id": "49202",
+        "cc": "br"
+      },
+      "ss": "0-2",
+      "scores": {
+        "2": {
+          "home": "0",
+          "away": "2"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "8",
+        "away_pos": "1",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "49207",
+          "name": "Estadio Governador Jose Fragelli",
+          "city": "Cuiaba",
+          "country": "Brazil",
+          "capacity": "40000",
+          "googlecoords": "-15.603939, -56.121473"
+        },
+        "round": "9"
+      }
+    },
+    {
+      "id": "3351904",
+      "sport_id": "1",
+      "time": "1618776000",
+      "time_status": "3",
+      "league": {
+        "id": "4153",
+        "name": "Brazil Campeonato Brasileiro Women",
+        "cc": "br"
+      },
+      "home": {
+        "id": "273042",
+        "name": "Cruzeiro Women",
+        "image_id": "552283",
+        "cc": "br"
+      },
+      "away": {
+        "id": "328630",
+        "name": "Real Brasilia FC Women",
+        "image_id": "682335",
+        "cc": "br"
+      },
+      "ss": "1-1",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "home_pos": "6",
+        "away_pos": "6",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "49559",
+          "name": "Estadio das Alterosas SESC Venda Nova",
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "capacity": "2000",
+          "googlecoords": "-19.796111,-43.979167"
+        },
+        "length": 90,
+        "round": "1"
+      }
+    },
+    {
+      "id": "3441234",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3572",
+        "name": "Brazil Campeonato Paranaense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "1315",
+        "name": "Coritiba",
+        "image_id": "1982",
+        "cc": "br"
+      },
+      "away": {
+        "id": "75015",
+        "name": "Toledo Colonia Work",
+        "image_id": "22427",
+        "cc": "br"
+      },
+      "o_away": {
+        "id": "320760",
+        "name": "Toledo EC",
+        "image_id": "22427",
+        "cc": "br"
+      },
+      "ss": "5-1",
+      "scores": {
+        "2": {
+          "home": "5",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "home_pos": "5",
+        "away_pos": "9",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "1304",
+          "name": "Estadio Couto Pereira",
+          "city": "Curitiba",
+          "country": "Brazil",
+          "capacity": "40502",
+          "googlecoords": "-25.421111,-49.259500"
+        },
+        "length": 90,
+        "round": "3"
+      }
+    },
+    {
+      "id": "3431724",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "2788",
+        "name": "Brazil Copa Nordeste",
+        "cc": "br"
+      },
+      "home": {
+        "id": "1264",
+        "name": "Ceara",
+        "image_id": "2001",
+        "cc": "br"
+      },
+      "away": {
+        "id": "6512",
+        "name": "Sampaio Correa",
+        "image_id": "2005",
+        "cc": "br"
+      },
+      "ss": "3-0",
+      "scores": {
+        "2": {
+          "home": "3",
+          "away": "0"
+        }
+      },
+      "extra": {
+        "home_pos": "1",
+        "away_pos": "4",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "11955",
+          "name": "Estadio Castelao",
+          "city": "Fortaleza",
+          "country": "Brazil",
+          "capacity": "63903",
+          "googlecoords": "-3.807256, -38.522436"
+        },
+        "length": 90,
+        "round": "3"
+      }
+    },
+    {
+      "id": "3427975",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3366",
+        "name": "Brazil Campeonato Potiguar",
+        "cc": "br"
+      },
+      "home": {
+        "id": "7371",
+        "name": "America RN",
+        "image_id": "2023",
+        "cc": "br"
+      },
+      "away": {
+        "id": "2064",
+        "name": "ABC",
+        "image_id": "21838",
+        "cc": "br"
+      },
+      "ss": "1-0",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "0"
+        }
+      },
+      "extra": {
+        "home_pos": "2",
+        "away_pos": "3",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "13312",
+          "name": "Arena das Dunas",
+          "city": "Natal",
+          "country": "Brazil",
+          "capacity": "42623",
+          "googlecoords": "-5.826691, -35.212480"
+        },
+        "length": 90,
+        "round": "5"
+      }
+    },
+    {
+      "id": "3417240",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3829",
+        "name": "Brazil Paraense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "84616",
+        "name": "Aguia de Maraba",
+        "image_id": "33998",
+        "cc": "br"
+      },
+      "away": {
+        "id": "2065",
+        "name": "Clube Do Remo",
+        "image_id": "2012",
+        "cc": "br"
+      },
+      "ss": "1-1",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "3",
+        "away_pos": "1",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "11949",
+          "name": "Estadio Municipal Zinho de Oliveira",
+          "city": "Maraba",
+          "country": "Brazil",
+          "capacity": "4000",
+          "googlecoords": "-5.351649,-49.138460"
+        },
+        "round": "6"
+      }
+    },
+    {
+      "id": "3410726",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3491",
+        "name": "Brazil Campeonato Alagoano",
+        "cc": "br"
+      },
+      "home": {
+        "id": "78879",
+        "name": "CE Olhodaguense",
+        "image_id": "312590",
+        "cc": "br"
+      },
+      "away": {
+        "id": "1309",
+        "name": "ASA",
+        "image_id": "2019",
+        "cc": "br"
+      },
+      "ss": "0-0",
+      "scores": {
+        "2": {
+          "home": "0",
+          "away": "0"
+        }
+      },
+      "extra": {
+        "home_pos": "9",
+        "away_pos": "6",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "49119",
+          "name": "Estádio Edson Matias",
+          "city": "Olho d'Água das Flores",
+          "country": "Brazil",
+          "capacity": "3000",
+          "googlecoords": "-9.5303645,-37.2944246"
+        },
+        "length": 90,
+        "round": "7"
+      }
+    },
+    {
+      "id": "3384944",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3570",
+        "name": "Brazil Campeonato Goiano",
+        "cc": "br"
+      },
+      "home": {
+        "id": "3158",
+        "name": "Vila Nova",
+        "image_id": "2021",
+        "cc": "br"
+      },
+      "away": {
+        "id": "79839",
+        "name": "Aparecidense",
+        "image_id": "32794",
+        "cc": "br"
+      },
+      "ss": "2-1",
+      "scores": {
+        "2": {
+          "home": "2",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "2",
+        "away_pos": "1",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "758",
+          "name": "Serra Dourada",
+          "city": "Goiania",
+          "country": "Brazil",
+          "capacity": "50049",
+          "googlecoords": "-16.698889,-49.233889"
+        },
+        "round": "9"
+      }
+    },
+    {
+      "id": "3382781",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "1924",
+        "name": "Brazil Campeonato Sergipano",
+        "cc": "br"
+      },
+      "home": {
+        "id": "73605",
+        "name": "CS Sergipe",
+        "image_id": "2016",
+        "cc": "br"
+      },
+      "away": {
+        "id": "73606",
+        "name": "Dorense",
+        "image_id": "309540",
+        "cc": "br"
+      },
+      "ss": "1-1",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "13264",
+          "name": "Estadio Joao Hora de Oliveira",
+          "city": "Aracaju",
+          "country": "Brazil",
+          "capacity": "8000",
+          "googlecoords": "-10.923333,-37.072222"
+        },
+        "length": 90,
+        "round": "8"
+      }
+    },
+    {
+      "id": "3340614",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3574",
+        "name": "Brazil Campeonato Catarinense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "282334",
+        "name": "EC Prospera",
+        "image_id": "580723",
+        "cc": "br"
+      },
+      "away": {
+        "id": "580",
+        "name": "Figueirense",
+        "image_id": "1985",
+        "cc": "br"
+      },
+      "ss": "1-0",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "0"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "7",
+        "away_pos": "8",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "4574",
+          "name": "Estadio Heriberto Hulse",
+          "city": "Criciuma",
+          "country": "Brazil",
+          "capacity": "19300",
+          "googlecoords": "-28.684167,-49.367500"
+        },
+        "round": "10"
+      }
+    },
+    {
+      "id": "3340613",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3574",
+        "name": "Brazil Campeonato Catarinense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "1220",
+        "name": "Marcilio Dias",
+        "image_id": "21978",
+        "cc": "br"
+      },
+      "away": {
+        "id": "1338",
+        "name": "Chapecoense",
+        "image_id": "21845",
+        "cc": "br"
+      },
+      "ss": "2-2",
+      "scores": {
+        "2": {
+          "home": "2",
+          "away": "2"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "5",
+        "away_pos": "1",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "49191",
+          "name": "Hercilio Luz",
+          "city": "Itajai",
+          "country": "Brazil",
+          "capacity": "6010",
+          "googlecoords": "-26.908277, -48.659524"
+        },
+        "round": "10"
+      }
+    },
+    {
+      "id": "3340612",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3574",
+        "name": "Brazil Campeonato Catarinense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "7404",
+        "name": "Avai",
+        "image_id": "7315",
+        "cc": "br"
+      },
+      "away": {
+        "id": "1260",
+        "name": "Hercilio Luz",
+        "image_id": "290376",
+        "cc": "br"
+      },
+      "ss": "2-0",
+      "scores": {
+        "2": {
+          "home": "2",
+          "away": "0"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "3",
+        "away_pos": "10",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "1978",
+          "name": "Estadio da Ressacada",
+          "city": "Florianopolis",
+          "country": "Brazil",
+          "capacity": "17800",
+          "googlecoords": "-27.666445,-48.531654"
+        },
+        "round": "10"
+      }
+    },
+    {
+      "id": "3340611",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3574",
+        "name": "Brazil Campeonato Catarinense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "80320",
+        "name": "CA Metropolitano",
+        "image_id": "21980",
+        "cc": "br"
+      },
+      "away": {
+        "id": "1221",
+        "name": "Juventus Jaragua Do Sul",
+        "image_id": "344152",
+        "cc": "br"
+      },
+      "o_away": {
+        "id": "58802",
+        "name": "Juventus SC",
+        "image_id": "344152",
+        "cc": null
+      },
+      "ss": "3-3",
+      "scores": {
+        "2": {
+          "home": "3",
+          "away": "3"
+        }
+      },
+      "extra": {
+        "home_pos": "12",
+        "away_pos": "4",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "length": 90,
+        "round": "10"
+      }
+    },
+    {
+      "id": "3340610",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3574",
+        "name": "Brazil Campeonato Catarinense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "6466",
+        "name": "Joinville",
+        "image_id": "1987",
+        "cc": "br"
+      },
+      "away": {
+        "id": "79864",
+        "name": "Brusque",
+        "image_id": "21884",
+        "cc": "br"
+      },
+      "ss": "0-0",
+      "scores": {
+        "2": {
+          "home": "0",
+          "away": "0"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "6",
+        "away_pos": "2",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "13218",
+          "name": "Arena Joinville",
+          "city": "Joinville",
+          "country": "Brazil",
+          "capacity": "22400",
+          "googlecoords": "-26.316667,-48.833611"
+        },
+        "round": "10"
+      }
+    },
+    {
+      "id": "3340609",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3574",
+        "name": "Brazil Campeonato Catarinense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "58807",
+        "name": "Concordia AC",
+        "image_id": "344156",
+        "cc": "br"
+      },
+      "away": {
+        "id": "3164",
+        "name": "Criciuma",
+        "image_id": "1984",
+        "cc": "br"
+      },
+      "ss": "0-0",
+      "scores": {
+        "2": {
+          "home": "0",
+          "away": "0"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "9",
+        "away_pos": "11",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "49189",
+          "name": "Domingos Machado de Lima",
+          "city": "Concordia",
+          "country": "Brazil",
+          "capacity": "5000",
+          "googlecoords": "-27.227631, -52.017896"
+        },
+        "round": "10"
+      }
+    },
+    {
+      "id": "3288274",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "4",
+      "league": {
+        "id": "3572",
+        "name": "Brazil Campeonato Paranaense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "75011",
+        "name": "Cianorte",
+        "image_id": "21892",
+        "cc": "br"
+      },
+      "away": {
+        "id": "363248",
+        "name": "Azuriz FC",
+        "image_id": "753727",
+        "cc": "br"
+      },
+      "ss": null,
+      "extra": {
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "40036",
+          "name": "Estadio Municipal Olimpico Albino Turbay",
+          "city": "Cianorte",
+          "country": "Brazil",
+          "capacity": "4000",
+          "googlecoords": "-23.66164,-52.59383"
+        },
+        "length": 90,
+        "round": "11"
+      }
+    },
+    {
+      "id": "3287360",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3287",
+        "name": "Brazil Campeonato Paraibano",
+        "cc": "br"
+      },
+      "home": {
+        "id": "298739",
+        "name": "Sao Paulo Crystal FC",
+        "image_id": "663275",
+        "cc": "br"
+      },
+      "away": {
+        "id": "71241",
+        "name": "Campinense Clube",
+        "image_id": "34010",
+        "cc": "br"
+      },
+      "ss": "2-1",
+      "scores": {
+        "2": {
+          "home": "2",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "home_pos": "6",
+        "away_pos": "5",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "49143",
+          "name": "Estadio Municipal O Carneirao",
+          "city": "Cruz do Espirito Santo",
+          "country": "Brazil",
+          "capacity": "5000",
+          "googlecoords": "-7.1387832,-35.086291"
+        },
+        "length": 90,
+        "round": "1"
+      }
+    },
+    {
+      "id": "3282436",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3583",
+        "name": "Brazil Campeonato Baiano",
+        "cc": "br"
+      },
+      "home": {
+        "id": "1329",
+        "name": "Atletico Alagoinhas",
+        "image_id": "525349",
+        "cc": "br"
+      },
+      "away": {
+        "id": "54619",
+        "name": "Jacuipense",
+        "image_id": "87166",
+        "cc": "br"
+      },
+      "ss": "2-2",
+      "scores": {
+        "2": {
+          "home": "2",
+          "away": "2"
+        }
+      },
+      "extra": {
+        "home_pos": "2",
+        "away_pos": "7",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "57124",
+          "name": "Estadio Municipal Antonio Carneiro",
+          "city": "Alagoinhas",
+          "country": "Brazil",
+          "capacity": "18000",
+          "googlecoords": "-12.140267, -38.415150"
+        },
+        "length": 90,
+        "round": "8"
+      }
+    },
+    {
+      "id": "3282435",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3583",
+        "name": "Brazil Campeonato Baiano",
+        "cc": "br"
+      },
+      "home": {
+        "id": "1330",
+        "name": "Fluminense De Feira",
+        "image_id": "21963",
+        "cc": "br"
+      },
+      "away": {
+        "id": "380736",
+        "name": "Doce Mel Esporte Clube",
+        "image_id": "558572",
+        "cc": "br"
+      },
+      "ss": "1-2",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "2"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "10",
+        "away_pos": "9",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "11983",
+          "name": "Estadio Joia da Princesa",
+          "city": "Feira de Santana",
+          "country": "Brazil",
+          "capacity": "16274",
+          "googlecoords": "l16274"
+        },
+        "round": "8"
+      }
+    },
+    {
+      "id": "3282420",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3583",
+        "name": "Brazil Campeonato Baiano",
+        "cc": "br"
+      },
+      "home": {
+        "id": "6426",
+        "name": "EC Bahia",
+        "image_id": "1955",
+        "cc": "br"
+      },
+      "away": {
+        "id": "74962",
+        "name": "Bahia de Feira",
+        "image_id": "39638",
+        "cc": "br"
+      },
+      "ss": "1-0",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "0"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "5",
+        "away_pos": "3",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "11969",
+          "name": "Arena Fonte Nova",
+          "city": "Salvador",
+          "country": "Brazil",
+          "capacity": "48000",
+          "googlecoords": "-12.978746,-38.504157"
+        },
+        "round": "8"
+      }
+    },
+    {
+      "id": "3277289",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "1921",
+        "name": "Brazil Campeonato Pernambucano",
+        "cc": "br"
+      },
+      "home": {
+        "id": "3159",
+        "name": "Nautico Capibaribe",
+        "image_id": "2011",
+        "cc": "br"
+      },
+      "away": {
+        "id": "72605",
+        "name": "Santa Cruz FC",
+        "image_id": "1976",
+        "cc": "br"
+      },
+      "ss": "2-1",
+      "scores": {
+        "2": {
+          "home": "2",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "home_pos": "1",
+        "away_pos": "3",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "570",
+          "name": "Estadio dos Aflitos",
+          "city": "Recife",
+          "country": "Brazil",
+          "capacity": "20000",
+          "googlecoords": "-8.040559,-34.896801"
+        },
+        "length": 90,
+        "round": "6"
+      }
+    },
+    {
+      "id": "3277194",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "1921",
+        "name": "Brazil Campeonato Pernambucano",
+        "cc": "br"
+      },
+      "home": {
+        "id": "7405",
+        "name": "Salgueiro",
+        "image_id": "22424",
+        "cc": "br"
+      },
+      "away": {
+        "id": "293770",
+        "name": "Retro FC Brasil",
+        "image_id": "614088",
+        "cc": "br"
+      },
+      "ss": "1-0",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "0"
+        }
+      },
+      "extra": {
+        "home_pos": "6",
+        "away_pos": "4",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "4590",
+          "name": "Estadio Cornelio de Barros",
+          "city": "Salgueiro",
+          "country": "Brazil",
+          "capacity": "5715",
+          "googlecoords": "-8.075947,-39.119591"
+        },
+        "length": 90,
+        "round": "3"
+      }
+    },
+    {
+      "id": "3277099",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "1921",
+        "name": "Brazil Campeonato Pernambucano",
+        "cc": "br"
+      },
+      "home": {
+        "id": "56059",
+        "name": "Afogados da Ingazeira FC",
+        "image_id": "308344",
+        "cc": "br"
+      },
+      "away": {
+        "id": "56057",
+        "name": "Vera Cruz",
+        "image_id": "22429",
+        "cc": "br"
+      },
+      "ss": "2-1",
+      "scores": {
+        "2": {
+          "home": "2",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "home_pos": "5",
+        "away_pos": "7",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "19284",
+          "name": "Estadio Valdemar Viana de Araujo",
+          "city": "Afogados da Ingazeira",
+          "country": "Brazil",
+          "capacity": "1735",
+          "googlecoords": "-7.758057,-37.631797"
+        },
+        "length": 90,
+        "round": "7"
+      }
+    },
+    {
+      "id": "3257261",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "4",
+      "league": {
+        "id": "3572",
+        "name": "Brazil Campeonato Paranaense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "3160",
+        "name": "Londrina",
+        "image_id": "2022",
+        "cc": "br"
+      },
+      "away": {
+        "id": "321243",
+        "name": "FC Cascavel",
+        "image_id": "21891",
+        "cc": "br"
+      },
+      "ss": null,
+      "extra": {
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "13972",
+          "name": "Estadio Jacy Scaff",
+          "city": "Londrina",
+          "country": "Brazil",
+          "capacity": "36000",
+          "googlecoords": "-23.282317, -51.164941"
+        },
+        "length": 90,
+        "round": "11"
+      }
+    },
+    {
+      "id": "3257260",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "4",
+      "league": {
+        "id": "3572",
+        "name": "Brazil Campeonato Paranaense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "162587",
+        "name": "Cascavel CR",
+        "image_id": "527703",
+        "cc": "br"
+      },
+      "away": {
+        "id": "162225",
+        "name": "Maringa FC",
+        "image_id": "135324",
+        "cc": "br"
+      },
+      "ss": null,
+      "extra": {
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "17164",
+          "name": "Olimpico Regional Arnaldo Busatto",
+          "city": "Cascavel",
+          "country": "Brazil",
+          "capacity": "28125",
+          "googlecoords": "-24.975022,-53.502558"
+        },
+        "length": 90,
+        "round": "11"
+      }
+    },
+    {
+      "id": "3235733",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3570",
+        "name": "Brazil Campeonato Goiano",
+        "cc": "br"
+      },
+      "home": {
+        "id": "74970",
+        "name": "Goianesia",
+        "image_id": "47499",
+        "cc": "br"
+      },
+      "away": {
+        "id": "3163",
+        "name": "Goias",
+        "image_id": "1960",
+        "cc": "br"
+      },
+      "ss": "1-1",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "4",
+        "away_pos": "3",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "49323",
+          "name": "Estadio Valdeir Jose de Oliveira",
+          "city": "Goianesia",
+          "country": "Brazil",
+          "capacity": "6000",
+          "googlecoords": "-16.346344, -48.955763"
+        },
+        "round": "9"
+      }
+    },
+    {
+      "id": "3235713",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3570",
+        "name": "Brazil Campeonato Goiano",
+        "cc": "br"
+      },
+      "home": {
+        "id": "74968",
+        "name": "Itumbiara",
+        "image_id": "21974",
+        "cc": "br"
+      },
+      "away": {
+        "id": "79840",
+        "name": "Anapolis FC",
+        "image_id": "21872",
+        "cc": "br"
+      },
+      "ss": "0-1",
+      "scores": {
+        "2": {
+          "home": "0",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "6",
+        "away_pos": "3",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "13880",
+          "name": "Estadio Municipal Juscelino Kubitschek",
+          "city": "Itumbiara",
+          "country": "Brazil",
+          "capacity": "33000",
+          "googlecoords": "-18.408611,-49.243611"
+        },
+        "round": "9"
+      }
+    },
+    {
+      "id": "3235710",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3570",
+        "name": "Brazil Campeonato Goiano",
+        "cc": "br"
+      },
+      "home": {
+        "id": "169054",
+        "name": "Gremio Anapolis",
+        "image_id": "87168",
+        "cc": "br"
+      },
+      "away": {
+        "id": "230097",
+        "name": "AE Jataiense",
+        "image_id": "21976",
+        "cc": "br"
+      },
+      "ss": "1-2",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "2"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "2",
+        "away_pos": "5",
+        "pitch": "Good",
+        "weather": "Good",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "10658",
+          "name": "Estadio Municipal Jonas Duarte",
+          "city": "Anapolis",
+          "country": "Brazil",
+          "capacity": "20000",
+          "googlecoords": "-16.346353,-48.955765"
+        },
+        "round": "9"
+      }
+    },
+    {
+      "id": "3231408",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "4",
+      "league": {
+        "id": "3572",
+        "name": "Brazil Campeonato Paranaense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "75015",
+        "name": "Toledo Colonia Work",
+        "image_id": "22427",
+        "cc": "br"
+      },
+      "away": {
+        "id": "266701",
+        "name": "Athletico Paranaense",
+        "image_id": "1967",
+        "cc": "br"
+      },
+      "ss": null,
+      "extra": {
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "49381",
+          "name": "Estadio Municipal 14 de Dezembro",
+          "city": "Toledo",
+          "country": "Brazil",
+          "capacity": "15280",
+          "googlecoords": "-24.725009, -53.754651"
+        },
+        "length": 90,
+        "round": "11"
+      }
+    },
+    {
+      "id": "3231399",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "4",
+      "league": {
+        "id": "3572",
+        "name": "Brazil Campeonato Paranaense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "79862",
+        "name": "Rio Branco PR",
+        "image_id": "32783",
+        "cc": "br"
+      },
+      "away": {
+        "id": "1315",
+        "name": "Coritiba",
+        "image_id": "1982",
+        "cc": "br"
+      },
+      "ss": null,
+      "extra": {
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "52495",
+          "name": "Estadio Nelson Medrado Dias",
+          "city": "Paranagua",
+          "country": "Brazil",
+          "capacity": "4000",
+          "googlecoords": "-25.527441, -48.518250"
+        },
+        "length": 90,
+        "round": "11"
+      }
+    },
+    {
+      "id": "3208636",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "4",
+      "league": {
+        "id": "3568",
+        "name": "Brazil Campeonato Paulista A2",
+        "cc": "br"
+      },
+      "home": {
+        "id": "410",
+        "name": "RB Brasil",
+        "image_id": "88734",
+        "cc": "br"
+      },
+      "away": {
+        "id": "5315",
+        "name": "XV Piracicaba",
+        "image_id": "61692",
+        "cc": "br"
+      },
+      "ss": null,
+      "extra": {
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "4586",
+          "name": "Estadio Moises Lucarelli",
+          "city": "Campinas",
+          "country": "Brazil",
+          "capacity": "19722",
+          "googlecoords": "-22.913611,-47.051389"
+        },
+        "length": 90,
+        "round": "10"
+      }
+    },
+    {
+      "id": "3105947",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3571",
+        "name": "Brazil Campeonato Mineiro",
+        "cc": "br"
+      },
+      "home": {
+        "id": "164354",
+        "name": "CA Patrocinense",
+        "image_id": "400991",
+        "cc": "br"
+      },
+      "away": {
+        "id": "79857",
+        "name": "URT MG",
+        "image_id": "35278",
+        "cc": "br"
+      },
+      "ss": "0-1",
+      "scores": {
+        "2": {
+          "home": "0",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "home_pos": "10",
+        "away_pos": "8",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "40028",
+          "name": "Estadio Pedro Alves do Nascimento",
+          "city": "Minas Gerais",
+          "country": "Brazil",
+          "capacity": "10250",
+          "googlecoords": "-18.9261918,-46.9934811"
+        },
+        "length": 90,
+        "round": "10"
+      }
+    },
+    {
+      "id": "3105890",
+      "sport_id": "1",
+      "time": "1618772400",
+      "time_status": "3",
+      "league": {
+        "id": "3571",
+        "name": "Brazil Campeonato Mineiro",
+        "cc": "br"
+      },
+      "home": {
+        "id": "1313",
+        "name": "Atletico Mineiro",
+        "image_id": "1977",
+        "cc": "br"
+      },
+      "away": {
+        "id": "7027",
+        "name": "Boa",
+        "image_id": "21854",
+        "cc": "br"
+      },
+      "ss": "2-1",
+      "scores": {
+        "2": {
+          "home": "2",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "1",
+        "away_pos": "11",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "649",
+          "name": "Governador Magalhaes Pinto",
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "capacity": "61846",
+          "googlecoords": "-19.865817, -43.971083"
+        },
+        "round": "10"
+      }
+    },
+    {
+      "id": "3429135",
+      "sport_id": "1",
+      "time": "1618770600",
+      "time_status": "3",
+      "league": {
+        "id": "3658",
+        "name": "Brazil Campeonato Brasiliense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "81852",
+        "name": "SE Santa Maria",
+        "image_id": "529981",
+        "cc": "br"
+      },
+      "away": {
+        "id": "82619",
+        "name": "Brasiliense",
+        "image_id": "2024",
+        "cc": "br"
+      },
+      "ss": "0-4",
+      "scores": {
+        "2": {
+          "home": "0",
+          "away": "4"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "4",
+        "away_pos": "1",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "round": "2"
+      }
+    },
+    {
+      "id": "3281588",
+      "sport_id": "1",
+      "time": "1618769700",
+      "time_status": "3",
+      "league": {
+        "id": "3341",
+        "name": "Brazil Campeonato Carioca",
+        "cc": "br"
+      },
+      "home": {
+        "id": "3880",
+        "name": "Bangu",
+        "image_id": "1993",
+        "cc": "br"
+      },
+      "away": {
+        "id": "1331",
+        "name": "Volta Redonda",
+        "image_id": "6982",
+        "cc": "br"
+      },
+      "ss": "1-1",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "home_pos": "11",
+        "away_pos": "2",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "4596",
+          "name": "Estadio Moca Bonita",
+          "city": "East Bethel",
+          "country": "USA",
+          "capacity": "9564",
+          "googlecoords": "-22.872497,-43.456575"
+        },
+        "length": 90,
+        "round": "10"
+      }
+    },
+    {
+      "id": "3281585",
+      "sport_id": "1",
+      "time": "1618769700",
+      "time_status": "3",
+      "league": {
+        "id": "3341",
+        "name": "Brazil Campeonato Carioca",
+        "cc": "br"
+      },
+      "home": {
+        "id": "46655",
+        "name": "Nova Iguacu",
+        "image_id": "6981",
+        "cc": "br"
+      },
+      "away": {
+        "id": "3853",
+        "name": "Resende RJ",
+        "image_id": "501702",
+        "cc": "br"
+      },
+      "ss": "4-2",
+      "scores": {
+        "2": {
+          "home": "4",
+          "away": "2"
+        }
+      },
+      "extra": {
+        "home_pos": "10",
+        "away_pos": "8",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "4608",
+          "name": "Estadio Janio Moraes",
+          "city": "Nova Iguacu",
+          "country": "Brazil",
+          "capacity": "5000",
+          "googlecoords": "-22.748193,-43.460906"
+        },
+        "length": 90,
+        "round": "10"
+      }
+    },
+    {
+      "id": "3429134",
+      "sport_id": "1",
+      "time": "1618768800",
+      "time_status": "3",
+      "league": {
+        "id": "3658",
+        "name": "Brazil Campeonato Brasiliense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "259344",
+        "name": "Capital CF",
+        "image_id": "529973",
+        "cc": "br"
+      },
+      "away": {
+        "id": "80836",
+        "name": "Ceilandia",
+        "image_id": "35279",
+        "cc": "br"
+      },
+      "ss": "2-2",
+      "scores": {
+        "2": {
+          "home": "2",
+          "away": "2"
+        }
+      },
+      "extra": {
+        "home_pos": "2",
+        "away_pos": "3",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "49149",
+          "name": "Estadio Antonio Otoni Filho",
+          "city": "Brasilia",
+          "country": "Brazil",
+          "capacity": "7000",
+          "googlecoords": "-15.8264118,-47.9722176"
+        },
+        "length": 90,
+        "round": "2"
+      }
+    },
+    {
+      "id": "3317178",
+      "sport_id": "1",
+      "time": "1618768800",
+      "time_status": "2",
+      "league": {
+        "id": "13905",
+        "name": "Brazil Campeonato Sul-Matogrossense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "82418",
+        "name": "Comercial MS",
+        "image_id": "2004",
+        "cc": "br"
+      },
+      "away": {
+        "id": "380410",
+        "name": "Tres Lagoas",
+        "image_id": "778406",
+        "cc": "br"
+      },
+      "ss": null,
+      "extra": {
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "13182",
+          "name": "Estadio Morenao",
+          "city": "Campo Grande",
+          "country": "Brazil",
+          "capacity": "45000",
+          "googlecoords": "-20.501359, -54.609861"
+        },
+        "length": 90,
+        "round": "10"
+      }
+    },
+    {
+      "id": "3304645",
+      "sport_id": "1",
+      "time": "1618768800",
+      "time_status": "3",
+      "league": {
+        "id": "4153",
+        "name": "Brazil Campeonato Brasileiro Women",
+        "cc": "br"
+      },
+      "home": {
+        "id": "273198",
+        "name": "Botafogo RJ Women",
+        "image_id": "552289",
+        "cc": "br"
+      },
+      "away": {
+        "id": "313967",
+        "name": "EC Bahia Women",
+        "image_id": "682327",
+        "cc": "br"
+      },
+      "ss": "0-0",
+      "scores": {
+        "2": {
+          "home": "0",
+          "away": "0"
+        }
+      },
+      "extra": {
+        "home_pos": "6",
+        "away_pos": "6",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "13224",
+          "name": "Estadio Olimpico Nilton Santos",
+          "city": "Rio de Janeiro",
+          "country": "Brazil",
+          "capacity": "46931",
+          "googlecoords": "-22.893275,-43.294502"
+        },
+        "length": 90,
+        "round": "1"
+      }
+    },
+    {
+      "id": "3300101",
+      "sport_id": "1",
+      "time": "1618768800",
+      "time_status": "3",
+      "league": {
+        "id": "4153",
+        "name": "Brazil Campeonato Brasileiro Women",
+        "cc": "br"
+      },
+      "home": {
+        "id": "48938",
+        "name": "Flamengo RJ Women",
+        "image_id": "321495",
+        "cc": "br"
+      },
+      "away": {
+        "id": "267964",
+        "name": "Minas ICESP DF Women",
+        "image_id": "440786",
+        "cc": "br"
+      },
+      "ss": "1-1",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "length": 90,
+        "home_pos": "6",
+        "away_pos": "6",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "19777",
+          "name": "Estadio José Bastos Padilha",
+          "city": "Rio de Janeiro",
+          "country": "Brazil",
+          "capacity": "8000",
+          "googlecoords": "-22.978287,-43.221123"
+        },
+        "round": "1"
+      }
+    },
+    {
+      "id": "3290834",
+      "sport_id": "1",
+      "time": "1618768800",
+      "time_status": "3",
+      "league": {
+        "id": "13905",
+        "name": "Brazil Campeonato Sul-Matogrossense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "258830",
+        "name": "Chapadao",
+        "image_id": "35277",
+        "cc": "br"
+      },
+      "away": {
+        "id": "260216",
+        "name": "Uniao ABC",
+        "image_id": "529943",
+        "cc": "br"
+      },
+      "ss": "4-2",
+      "scores": {
+        "2": {
+          "home": "4",
+          "away": "2"
+        }
+      },
+      "extra": {
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "49223",
+          "name": "Estadio Aral Moreira",
+          "city": "Ponta Pora",
+          "country": "Brazil",
+          "capacity": "6000",
+          "googlecoords": "-22.526365, -55.727640"
+        },
+        "length": 90,
+        "round": "10"
+      }
+    },
+    {
+      "id": "3277290",
+      "sport_id": "1",
+      "time": "1618768800",
+      "time_status": "3",
+      "league": {
+        "id": "1921",
+        "name": "Brazil Campeonato Pernambucano",
+        "cc": "br"
+      },
+      "home": {
+        "id": "78222",
+        "name": "Vitoria das Tabocas",
+        "image_id": "32673",
+        "cc": "br"
+      },
+      "away": {
+        "id": "71239",
+        "name": "Central SC",
+        "image_id": "21844",
+        "cc": "br"
+      },
+      "ss": "1-3",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "3"
+        }
+      },
+      "extra": {
+        "home_pos": "8",
+        "away_pos": "9",
+        "pitch": "Good",
+        "weather": "Rainy",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "13298",
+          "name": "Estadio Municipal Serverino Candido Carneiro",
+          "city": "Vitoria de Santo Antao",
+          "country": "Brazil",
+          "capacity": "8000",
+          "googlecoords": "-8.122633,-35.281032"
+        },
+        "length": 90,
+        "round": "7"
+      }
+    },
+    {
+      "id": "3183205",
+      "sport_id": "1",
+      "time": "1618768800",
+      "time_status": "4",
+      "league": {
+        "id": "3647",
+        "name": "Brazil Campeonato Paulista",
+        "cc": "br"
+      },
+      "home": {
+        "id": "1299",
+        "name": "Ferroviaria SP",
+        "image_id": "35285",
+        "cc": "br"
+      },
+      "away": {
+        "id": "415",
+        "name": "Ituano",
+        "image_id": "2025",
+        "cc": "br"
+      },
+      "ss": null,
+      "extra": {
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "9571",
+          "name": "Estadio Dr. Adhemar de Barros",
+          "city": "Araraquara",
+          "country": "Brazil",
+          "capacity": "20287",
+          "googlecoords": "-21.774446,-48.170071"
+        },
+        "length": 90,
+        "round": "11"
+      }
+    },
+    {
+      "id": "3441317",
+      "sport_id": "1",
+      "time": "1618754400",
+      "time_status": "3",
+      "league": {
+        "id": "3572",
+        "name": "Brazil Campeonato Paranaense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "6410",
+        "name": "Parana",
+        "image_id": "1965",
+        "cc": "br"
+      },
+      "away": {
+        "id": "3160",
+        "name": "Londrina",
+        "image_id": "2022",
+        "cc": "br"
+      },
+      "ss": "1-1",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "home_pos": "8",
+        "away_pos": "7",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "616",
+          "name": "Durival Britto e Silva",
+          "city": "Curitiba",
+          "country": "Brazil",
+          "capacity": "20000",
+          "googlecoords": "-25.439444,-49.255833"
+        },
+        "length": 90,
+        "round": "2"
+      }
+    },
+    {
+      "id": "3311251",
+      "sport_id": "1",
+      "time": "1618754400",
+      "time_status": "4",
+      "league": {
+        "id": "3567",
+        "name": "Brazil Campeonato Paulista A3",
+        "cc": "br"
+      },
+      "home": {
+        "id": "448",
+        "name": "Bandeirante",
+        "image_id": "767846",
+        "cc": "br"
+      },
+      "away": {
+        "id": "162940",
+        "name": "Primavera SP",
+        "image_id": "189838",
+        "cc": "br"
+      },
+      "ss": null,
+      "extra": {
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "57122",
+          "name": "Estadio Pedro Marin Berbel",
+          "city": "Birigui",
+          "country": "Brazil",
+          "capacity": "10012",
+          "googlecoords": "-21.268907, -50.331208"
+        },
+        "length": 90,
+        "round": "9"
+      }
+    },
+    {
+      "id": "3257262",
+      "sport_id": "1",
+      "time": "1618754400",
+      "time_status": "4",
+      "league": {
+        "id": "3572",
+        "name": "Brazil Campeonato Paranaense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "6410",
+        "name": "Parana",
+        "image_id": "1965",
+        "cc": "br"
+      },
+      "away": {
+        "id": "160517",
+        "name": "Operario PR",
+        "image_id": "39634",
+        "cc": "br"
+      },
+      "ss": null,
+      "extra": {
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "616",
+          "name": "Durival Britto e Silva",
+          "city": "Curitiba",
+          "country": "Brazil",
+          "capacity": "20000",
+          "googlecoords": "-25.439444,-49.255833"
+        },
+        "length": 90,
+        "round": "11"
+      }
+    },
+    {
+      "id": "3105946",
+      "sport_id": "1",
+      "time": "1618754400",
+      "time_status": "3",
+      "league": {
+        "id": "3571",
+        "name": "Brazil Campeonato Mineiro",
+        "cc": "br"
+      },
+      "home": {
+        "id": "308150",
+        "name": "Pouso Alegre",
+        "image_id": "673707",
+        "cc": "br"
+      },
+      "away": {
+        "id": "577",
+        "name": "Cruzeiro",
+        "image_id": "1954",
+        "cc": "br"
+      },
+      "ss": "1-0",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "0"
+        }
+      },
+      "extra": {
+        "home_pos": "8",
+        "away_pos": "3",
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "length": 90,
+        "round": "10"
+      }
+    },
+    {
+      "id": "3441465",
+      "sport_id": "1",
+      "time": "1618750800",
+      "time_status": "3",
+      "league": {
+        "id": "3584",
+        "name": "Brazil Campeonato Matogrossense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "195258",
+        "name": "CEO Varzeagrandense",
+        "image_id": "35276",
+        "cc": "br"
+      },
+      "away": {
+        "id": "367838",
+        "name": "Gremio Sorriso",
+        "image_id": "751819",
+        "cc": "br"
+      },
+      "ss": "2-1",
+      "scores": {
+        "2": {
+          "home": "2",
+          "away": "1"
+        }
+      },
+      "extra": {
+        "home_pos": "2",
+        "away_pos": "7"
+      }
+    },
+    {
+      "id": "3441358",
+      "sport_id": "1",
+      "time": "1618750800",
+      "time_status": "3",
+      "league": {
+        "id": "3584",
+        "name": "Brazil Campeonato Matogrossense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "82675",
+        "name": "Sinop FC",
+        "image_id": "255235",
+        "cc": "br"
+      },
+      "away": {
+        "id": "295849",
+        "name": "Nova Mutum EC",
+        "image_id": "663653",
+        "cc": "br"
+      },
+      "ss": "1-2",
+      "scores": {
+        "2": {
+          "home": "1",
+          "away": "2"
+        }
+      },
+      "extra": {
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "41588",
+          "name": "Estadio Municipal Gigante do Norte",
+          "city": "Sinop",
+          "country": "Brazil",
+          "capacity": "25000",
+          "googlecoords": "-11.8709801,-55.4985027"
+        },
+        "length": 90,
+        "round": "9"
+      }
+    },
+    {
+      "id": "3441357",
+      "sport_id": "1",
+      "time": "1618750800",
+      "time_status": "3",
+      "league": {
+        "id": "3584",
+        "name": "Brazil Campeonato Matogrossense",
+        "cc": "br"
+      },
+      "home": {
+        "id": "5346",
+        "name": "Luverdense",
+        "image_id": "40161",
+        "cc": "br"
+      },
+      "away": {
+        "id": "195133",
+        "name": "Pocone FC",
+        "image_id": "510616",
+        "cc": "br"
+      },
+      "ss": "0-0",
+      "scores": {
+        "2": {
+          "home": "0",
+          "away": "0"
+        }
+      },
+      "extra": {
+        "numberofperiods": "2",
+        "periodlength": "45",
+        "stadium_data": {
+          "id": "11957",
+          "name": "Estadio Municipal Passo das Emas",
+          "city": "Lucas do Rio Verde",
+          "country": "Brazil",
+          "capacity": "6000",
+          "googlecoords": "-13.074462,-55.924101"
+        },
+        "length": 90,
+        "round": "9"
+      }
+    }
+  ]
+}

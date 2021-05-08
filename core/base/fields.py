@@ -19,7 +19,7 @@ class ZipCodeField(CharField):
 class CpfField(CharField):
 
   def __init__(self, *args, **kwargs):
-    if not kwargs['verbose_name']:
+    if not hasattr(kwargs, 'verbose_name') :
       kwargs['verbose_name'] = _("CPF")
 
     kwargs['max_length'] = 14

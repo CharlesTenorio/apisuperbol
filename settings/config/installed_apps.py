@@ -3,7 +3,12 @@ ACCOUNT_APPS = [
   'accounts.benches',
   'accounts.changers',
   'accounts.customers.customers',
-  'accounts.customers.transactions'
+  'accounts.customers.transactions',
+  'sports.football.leagues',
+  'sports.football.match',
+  'sports.football.teams',
+  'bets.football.odds',
+  'bets.football.tickets',
 ]
 
 MY_APPS = ACCOUNT_APPS
